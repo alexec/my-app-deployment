@@ -85,6 +85,9 @@ Click "Sync".
 kustomize edit set image gitopsworkshop/my-app:v2
 git diff
 kustomize build
+```
+
+```
 git commit -am "upgrade to version 2"
 git push
 ```
